@@ -76,7 +76,7 @@ public class VariableSample {
  * double => Double
  * char => Character
  */
-	public void testWrapper() {
+	public void testWrapper() {//일반적인 방법과 다른 이유는 위치한 메모리의 영역이 다르기 때문
 //		클래스에 소속된 멤버 사용방법 1 : => 클래스명 래퍼런스변수 = new  생성자();	래퍼런스변수.메소드();	레퍼런스.필드명
 //		클래스에 소속된 멤버 사용방법 2 : 멤버 선언 구문에 public static 이 표시되어 있으면 바로 => 클래스명.메소드();		클래스명.필드명  
 		System.out.println("int 메모리 할당 크기: " + Integer.BYTES + "바이트"); //파란글씨에 기울어진 단어는 static임
